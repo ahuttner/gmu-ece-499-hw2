@@ -1,7 +1,9 @@
 import socket
 
-UDP_IP = "192.168.1.82"
+UDP_IP = "10.159.253.209"
 UDP_PORT = 5005
+
+#Data for robot wheels (velocity in m/s)
 robot_wheels = "8 7"
 left_wheel, right_wheel = robot_wheels.split()
 
